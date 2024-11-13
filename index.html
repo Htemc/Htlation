@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTLATIONS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+/*---------------------------------------------Styles Go Here--------------------------------*/
+body {
+    background-image: url(carbonfiber.png); /* Add your background image here */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header-nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+#logo-img {
+    width: 50px;
+    height: 50px;
+    background: url('logo.svg') no-repeat center center;
+    background-size: contain;
+}
+
+.navbar-brand h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+#manga-tile, #about-tile, #forms-tile {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#manga-tile, #about-tile {
+    border: 1px solid blue;
+    height: 300px;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0;
+}
+
+/* Glow effect on hover */
+#manga-tile:hover, #about-tile:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(0, 0, 255, 0.6);
+}
+
+#forms-tile {
+    border: 3px solid rgb(56, 43, 66);
+    margin: 20px 0;
+    height: 190px;
+    padding: 0;
+}
+
+.bottom-text {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid burlywood;
+    height: 20;
+}
+
+#manga-tile img, #about-tile img, #forms-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#form-text {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background-color: rgb(30, 65, 160);
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+
+/* Media Queries */
+
+/* Large desktops (1200px and above) */
+@media (min-width: 1200px) {
+    #manga-tile, #about-tile {
+        width: 550px;
+        margin: 20px auto;
+    }
+    #forms-tile {
+        margin-top: 20px;
+    }
+}
+
+/* Laptops and tablets (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #manga-tile, #about-tile {
+        width: 400px;
+        margin: 20px auto;
+    }
+    #forms-tile {
+        margin: 20px auto;
+    }
+}
+
+/* Tablets and small laptops (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #manga-tile, #about-tile {
+        width: 350px;
+        margin: 15px auto;
+    }
+    #forms-tile {
+        margin: 20px auto;
+    }
+}
+
+/* Mobile phones (576px to 767px) */
+@media (max-width: 767px) {
+    #manga-tile, #about-tile {
+        width: 100%;
+        margin: 10px auto;
+    }
+    #forms-tile {
+        margin: 20px 0;
+    }
+}
+
+/* Extra small devices (phones below 576px) */
+@media (max-width: 575px) {
+    #manga-tile, #about-tile, #forms-tile {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <div id="logo-img"></div>
+                    <h1>HTLATIONS</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<style>
+    #form-text {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    color: red; /* Base text color */
+    text-shadow: 0 0 10px rgb(114, 50, 50), /* Outer glow */
+                 0 0 20px rgb(119, 67, 67), 
+                 0 0 30px rgb(71, 50, 50), 
+                 0 0 40px rgb(51, 36, 36);
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+#form-text:hover {
+    text-shadow: 0 0 20px red, 
+                 0 0 30px red, 
+                 0 0 40px red, 
+                 0 0 50px red; /* Enhanced glow on hover */
+}
+
+</style>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5" id="manga-tile">
+                    <a href="Fixedworking.html">
+                    <img src="ace.luffy.svg" alt="Manga Image" class="img-fluid">
+                   </a>
+                </div>
+                <div class="col-md-5" id="about-tile">
+                    <a href="about.html">
+                    <img src="Makibyenito.png" alt="Manga Image" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-12" id="forms-tile">
+                    <img src="scenery.jpg" alt="Manga Background" class="img-fluid">
+                    <a href="Forms.html"><span id="form-text">MANDE</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

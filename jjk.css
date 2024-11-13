@@ -1,0 +1,725 @@
+body {
+    /*background-color: rgb(14, 13, 13);*/
+    font-size: 16px;
+    color: #fff;
+    background-image: url(carbonfiber.png);
+}
+
+#header-nav {
+    background-color:rgba(187, 30, 64, 0.945);
+    height: 75px;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(233, 211, 211);
+}
+
+#main {
+    height: 400px;
+    width: auto;
+    border: 1px;
+    position: relative;
+}
+
+#title {
+    margin-left: 460%;
+    font-weight: bolder;
+    color: rgb(233, 211, 211);
+}
+#underline{
+    text-decoration:none;
+}
+#hove a:hover {
+    color: black;
+    text-decoration: none;
+}
+.navbar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+    .navbar-brand img {
+        margin-left: 1px;
+        height: 50px; /* Adjust as needed */
+    }
+    
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+#o1 {
+    width: 600px;
+    height:379px;
+    border: 3px solid rgb(141, 13, 45);
+   margin: 20px 20px 20px 50px
+}
+#o2 {
+    width:600px;
+    height:379px;
+    border: 3px solid rgb(141, 13, 45);
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+}
+
+#o3 {
+    width: auto;
+    height: 115px;
+    border: 3px solid rgb(141, 13, 45);
+    margin: 20px 20px 20px 20px;
+}
+
+h2 {
+    text-align: center;
+}
+#about {
+    width: 1513px;
+    height: 500px;
+}
+.center {
+    text-align: center;
+    position: relative;
+}
+
+.entry-inner {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+/**/
+.images-container {
+    display: flex;          /* Aligns items side by side */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 20px;              /* Adds space between the images */
+}
+
+.wp-image, .wp-image2 {
+    max-width: 500px;       /* Same size for both images */
+    height: auto;           /* Maintains the aspect ratio */
+}
+
+
+
+.wp-image {
+    max-width: 500px;  /* Set a specific max width for the first image */
+}
+
+.wp-image2 {
+    max-width: 300px;  /* Set a specific max width for the second image */
+}
+
+/**/
+ .cent {
+    margin: 0px 50px 0px 50px;
+    padding: 0px 150px 0px 150px;
+ }
+
+ h2 {
+    text-decoration: underline;
+ }
+
+.list {
+    text-decoration: none;
+    color: rgb(243, 158, 0);
+ }
+ li {
+    list-style: none;
+ }
+a:hover {
+    color: rgb(119, 13, 13);
+}
+
+#Chapters_List {
+    margin: 5px;
+    border: 3px;
+    width: 1300px;
+    height: auto;
+    border: 1px solid white;
+}
+
+
+.entry-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    margin-bottom: 0px;
+    width: 700px;
+    height: 900px;
+}
+
+
+.breadcrumb-trail {
+    text-align: center;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.breadcrumbs .trail-items, .breadcrumbs .trail-items li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+.begin, .trail-middle {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;  
+    color: #fff;  
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+h1, h3, h4, p {
+    text-align: center;
+}
+Footer {
+    height:auto;
+    width: auto;
+ } 
+
+ #next {
+    text-align: left;
+ }
+ #prev {
+    text-align: right;
+ }
+ #nup{
+    width: 348px;
+ }
+ #nup1{
+    width: 348px;
+ }
+ #next {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    margin-top: 10px; 
+ }
+ #prev {
+    position:absolute;
+    bottom: 5px;
+    left: 4px;
+    margin-bottom: 0px;
+    margin-top: 10px; 
+ }
+
+ .manga-image {
+    max-width: 100%; /* Ensures the image doesn’t exceed the width of its container */
+    height: auto; /* Maintains the image's aspect ratio */
+    margin-bottom: 20px; /* Adds space between the images */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#manga1 {
+   height: 375px;
+    width: 598px;
+}
+#about {
+    max-width: 100%;
+}
+.about-text {
+    
+}
+#manga1 {
+    filter: blur(7px) brightness(60%);
+}
+#manga3 {
+    filter:blur(3px);
+    max-width: 100%;
+}
+.minibox {
+    width: auto;
+    height: auto;
+    border: 6px solid rgb(226, 135, 30);
+    position: relative;
+    top: -200px;
+    left: 270px;
+    font-size: x-large;
+    padding: 5px;
+}
+.minibox1 {
+    width: auto;
+    height: auto;
+    border: 6px solid rgb(226, 135, 30);
+    position: relative;
+    bottom: 65px;
+    right: -610px;
+    font-size: x-large;
+    padding: 5px;
+}
+
+
+.us {
+    color: rgba(0, 0, 0, 0.63);
+}
+#submit {
+    margin-left: 670px;
+    position:absolute;
+    top: 695px;
+
+    /*left: 20px;*/
+}
+form {
+    max-width: 100%;
+    margin: 0 auto; /* Centers the form horizontally */
+    padding: 20px;
+    border: 1px solid #967c7c;
+    border-radius: 5px;
+    background-color: #0f0f0f96;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%; /* Makes the input and textarea fields full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 510px; /* Set width for the textarea */
+    height: 200px; /* Set height for the textarea */
+    resize: none; /* Disable resizing by the user */
+}
+textarea, .textare, #email, #subject {
+    margin-left: 250px;
+}
+
+input[type="submit"] {
+    background-color: rgb(141, 13, 45);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #5fa045;
+}
+#ul {
+    margin-left: 550px;
+}
+.cmain {
+    margin-left: 175px;
+}
+.box {
+    border: 3px solid rgb(117, 113, 113);
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.box1 {
+    border: 5px solid rgba(196, 119, 18, 0.808);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    filter: blur(2px);
+}
+.box2 {
+    border: 7px solid rgba(60, 97, 51, 0.808);
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.box3 {
+    border: 5px solid rgba(196, 119, 18, 0.808);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    filter: blur(2px);
+}
+.box, .box1, .box2, .box3 {
+    margin-right: 60px;
+    height: 280px;
+    width: 200px;
+}
+/* Flexbox container for the boxes */
+#cont {
+    display: flex;
+    justify-content: space-between; /* Space between the boxes */
+    gap: 10px; /* Optional: gap between boxes */
+    padding: 20px; /* Padding around the container */
+}
+.wp-image {
+    margin-left: 38.5%;
+}
+
+/* General box styling */
+#cont .box, #cont .box1, #cont .box2, #cont .box3 {
+    width: 23%; /* Each box takes up 23% of the container width */
+    height: 427px; /* Fixed height for each box */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    text-align: center; /* Center content inside the boxes */
+}
+
+.lock {
+    max-width: 100%;
+    max-height: 100%;
+}
+.lock1 {
+    width: 100px;
+    height: auto;
+    margin: 80px 0px 0px 40px;
+}
+.center p {
+    margin-top: 5%;
+}
+.center a {
+    text-decoration: none;
+}
+
+.g-recaptcha {
+    width: 400px;
+    position: relative;
+    left: 248px;
+
+}
+#o3 a, #o2 a, #o1 a {
+    text-decoration: none;
+}
+a {
+    float: left;
+   }
+form {
+    max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #967c7c;
+  border-radius: 5px;
+  background-color: #0f0f0f96;
+  font-family: Arial, sans-serif;
+  margin-left: 150px;
+  margin-right: 150px
+}
+#logo-img {
+    background: url(flagyy2.svg) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+/*new layout css*/
+#norpend {
+    text-align: center;
+}
+/*button colors*/
+/*.center div > span {
+    background-color: rgb(97, 31, 31);
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+}
+.center div > span:hover {
+    background-color:rgb(28, 39, 134);
+}*/
+
+.center div > span, #up a {
+    background-color: rgb(97, 31, 31);
+    font-weight: bold;
+    border: 2px solid black;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.center div > span:hover, #up a:hover {
+    background-color:rgb(28, 39, 134);
+}
+#next a span, #prev a span {
+    width: auto;
+    height: auto;
+    background-color: rgb(38, 42, 77);
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#next a span:hover, #prev a span:hover {
+    background-color: rgb(97, 31, 31);
+}
+#prev a {
+        margin-right: 250px;
+}
+.manga-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
+div a {
+    text-decoration: none;
+}
+
+
+
+/*---------------------------------------------MEDIA QUIERIES-------*/
+ /* Media Queries */
+            /* For larger desktops (1200px and above) */
+            @media (min-width: 1200px) {
+                .manga-image {
+                    max-width: 900px;
+                }
+            }
+
+            /* Laptops and tablets (992px to 1199px) */
+            @media (min-width: 992px) and (max-width: 1199px) {
+                .manga-image {
+                    max-width: 700px;
+                }
+            }
+
+            /* Tablets a
+            nd small laptops (768px to 991px) */
+            @media (min-width: 768px) and (max-width: 991px) {
+                .manga-image {
+                    max-width: 600px;
+                }
+            }
+
+            /* Mobile phones (576px to 767px) */
+            @media (max-width: 767px) {
+                .manga-image {
+                    max-width: 400px;
+                }
+            }
+
+            /* Extra small devices (phones below 576px) */
+            @media (max-width: 575px) {
+                .manga-image {
+                    max-width: 300px;
+                    margin-left: 100px;
+                }
+                .entry-content {
+                    width: auto;
+                }
+                #up a {
+                    margin-left: 50px;
+                }
+                #prev a {
+                        margin-right: 100px;
+                }
+                .cmain {
+                    margin-left: 130px;
+                }
+            }
+    /*test-----------------------------------------------------------*/
+
+    /* Base styles */
+#chapits_List {
+    font-size: 1rem;
+}
+ul#ul {
+    padding-left: 0;
+    /*margin: 0;*/
+}
+li {
+    list-style: none; /* Remove default list styles */
+}
+
+a.list:hover {
+    background-color: #e0e0e0;
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #chapits_List {
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+    #chapits_List {
+        font-size: 1rem;
+    }
+    a.list {
+        padding: 8px;
+        font-size: 1rem;
+    }
+    .cent1 {
+        margin-top: auto;
+    }
+    #ul {
+        margin-left: 50px;
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 768px) {
+    #chapits_List {
+        font-size: 0.9rem;
+    }
+    a.list {
+        padding: 4px;
+        font-size: 0.85rem;
+        margin-bottom: 3px;
+
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        transition: background-color 0.2s ease;
+    }
+    .wp-image {
+        margin-left: 19%;
+    }
+    .entry-inner.cope {
+            display: none;  /* Hides the content when screen width is less than 768px */
+        }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    #chapits_List {
+        font-size: 0.8rem;
+    }
+     .cent {
+        display: none;
+     }
+     ul {
+        margin-top: 330px;
+     }
+}
+
+
+/*--------------------------------------------*/
+
+#chapters-list {
+    max-height: 400px; /* Set a fixed height */
+    overflow-y: scroll; /* Add vertical scroll */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #22211f;
+    border: 2px solid #c7bebe;
+    border-radius: 8px;
+    width: 60%; /* Adjust the width to fit your design */
+}
+
+#chapters-list h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ul.chapters {
+    list-style: none;
+    padding: 0;
+}
+
+ul.chapters li {
+    margin: 5px 0;
+}
+
+ul.chapters a {
+    text-decoration: none;
+    color: #f8d5c7;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    display: block;
+    padding: 10px;
+    background-color: #5f2626;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+ul.chapters a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Add a scrollbar style */
+#chapters-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+#chapters-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#chapters-list::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+
+#aboutbox {
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 5px 15px 5px 15px;
+    height: auto;
+    width: auto;
+    text-indent: 3x;
+}
+
+#musicbar {
+    margin-left: 190px;
+}
+#musicb {
+    margin-left: 500px; 
+}
+/*COLOR BOX STYLING*/
+#grey {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: grey;
+    position: relative;
+}
+#orange {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#black {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: black;
+}
+#green {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: green;
+}
+
+.status-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  #grey { background-color: grey; }
+  #orange { background-color: orange; }
+  #green { background-color: green; }
+  #black { background-color: black; }
